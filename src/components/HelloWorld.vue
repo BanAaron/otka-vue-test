@@ -43,16 +43,16 @@
 
 <script>
 export default ({
-  name: 'home-page',
+  name: "home-page",
   methods: {
     async login() {
-      await this.$auth.signInWithRedirect({originalUri: '/'})
+      await this.$auth.signInWithRedirect({originalUri: "/"});
     },
     async logout() {
-      await this.$auth.signOut()
-    }
-  }
-})
+      await this.$auth.signOut();
+    },
+  },
+});
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
